@@ -4,7 +4,7 @@
 
     <groupId>course.springboot</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -33,19 +33,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-release-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <goal>install</goal>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goal>install</goal>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
-<!--    <scm>-->
-<!--        <developerConnection>scm:git:git@github.com:assafjh/pet-clinic.git</developerConnection>-->
-<!--        <tag>pet-clinic-0.0.2</tag>-->
-<!--    </scm>-->
+    <scm>
+        <developerConnection>scm:git:git@github.com:assafjh/pet-clinic.git</developerConnection>
+    </scm>
 
 </project>
