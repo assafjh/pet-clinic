@@ -44,7 +44,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:assafjh:G1tC0d3135!@https://github.com/assafjh/pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:assafjh/pet-clinic.git</developerConnection>
     </scm>
 
 </project>
