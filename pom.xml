@@ -4,7 +4,7 @@
 
     <groupId>course.springboot</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -44,8 +44,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:assafjh:G1tC0d3135!@https://github.com/assafjh/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-0.0.1</tag>
-  </scm>
+        <developerConnection>scm:git:git@github.com:assafjh/pet-clinic.git</developerConnection>
+    </scm>
 
 </project>
